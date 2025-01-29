@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-app-deployment
+spec:
+  selector:
+    matchLabels: 
+      app: myapp
+  replicas: 2
+  template: 
+    metadata:
+      labels:
+        app: myapp
+    spec: 
+      containers:
+      - name: myapp
+        image: dock8pro/website:3
+        ports:
+        - containerPort: 8080

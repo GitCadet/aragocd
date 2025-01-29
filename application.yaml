@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://ci-cd-p:(PAT)/ci-cd-p/argocd-k8s.git
+    repoURL: https://ci-cd-p:(PAT)/ci-cd-p/argocd-k8s.git # Hid Personal Access Token (PAT) for security reasons.
     targetRevision: HEAD
     path: dev
   destination: 

@@ -1,6 +1,6 @@
 # 🦑 ArgoCD on Kubernetes
 
-I deployed a ArgoCD agent in my Kubernetes cluster to automate application deployment using GitOps principles.                                               
+**Project Overlook:** Deploying a ArgoCD agent in my Kubernetes cluster to automate application deployment using GitOps principles.                                               
 **NOTE: I used pw in exchange of my actual password in the README*
 ## Prerequisites
 
